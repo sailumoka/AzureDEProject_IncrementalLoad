@@ -1,0 +1,15 @@
+{
+	"name": "azuredergdatafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f6ba864b-8562-41c0-97e7-bac3fda84d1e",
+		"tenantId": "187ba6d8-8e8c-468a-a87e-589277d3101d"
+	}
+}
